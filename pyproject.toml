@@ -1,11 +1,11 @@
 [project]
-name = "pdm-project-template"
+name = "nonebot-plugin-modrinth"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "一个基于nonebot2获取mc模组的插件"
 authors = [
     {name = "Cvandia", email = "106718176+Cvandia@users.noreply.github.com"},
 ]
-dependencies = []
+dependencies = ["nonebot2>=2.2.0", "httpx>=0.26.0", "nonebot-plugin-waiter>=0.8.1"]
 requires-python = ">=3.10,<4.0"
 readme = "README.md"
 license = {text = "MIT"}
